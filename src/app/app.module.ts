@@ -19,9 +19,9 @@ import { WebModule } from './web/web.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule,
-    AuthModule,
     WebModule,
+    AuthModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
